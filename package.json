@@ -1,10 +1,10 @@
 {
-  "name": "dopefolio",
+  "name": "singh_structure_portfolio",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "compile:scss": "node-sass sass/main.scss css/style.css -w",
+    "compile:scss": "./node_modules/.bin/node-sass sass/main.scss css/style.css -w",
     "prefix:css": "postcss --use autoprefixer -b 'last 10 versions' css/style.css -o css/style.css",
     "compress:css": "node-sass css/style.css css/style.css --output-style compressed",
     "build": "npm-run-all prefix:css compress:css"
