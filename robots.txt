@@ -1,0 +1,6 @@
+# robots.txt file for singhstructure.com
+# In robots we believe who can crawl any page
+
+User-Agent: *
+
+Sitemap: https://singhstructure.com/sitemap.xml
