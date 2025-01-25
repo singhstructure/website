@@ -706,11 +706,15 @@ textarea {
 
 .home-hero__cta-wrapper {
   display: flex;
-  gap: 50px; /* Optional: Adds space between the buttons */
+  flex-wrap: wrap; /* Allows buttons to wrap on smaller screens */
+  justify-content: center; /* Centers buttons horizontally */
+  gap: 20px; /* Space between buttons */
+  margin-top: 5rem;
 }
 
 .home-hero__cta {
-  /* You can keep any styling that you need here */
+  flex: 1 1 200px; /* Allow the buttons to grow and shrink with a minimum width */
+  text-align: center;
 }
 
 .about__people {
